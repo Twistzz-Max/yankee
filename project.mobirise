@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "yankee",
-    "currentPage": "sabaqtar.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -41,7 +41,7 @@
     "versionFirst": "4.11.4",
     "siteFonts": [],
     "snow": "",
-    "uniqCompNum": 46,
+    "uniqCompNum": 48,
     "versionPublish": "4.11.4",
     "screenshot": "screenshot.png"
   },
@@ -719,98 +719,27 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".carousel, .slider-box": {
-              "height": "300px"
+            ".mbr-title": {
+              "padding-bottom": "1rem"
             },
-            ".slider-box when (@showTitle), (@showSubtitle)": {
-              "margin-top": "2rem"
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
             },
-            ".slider-box when (@showText), (@showButtons)": {
-              "margin-bottom": "2rem"
+            ".mbr-section-subtitle": {
+              "text-align": "left"
             },
-            ".amp-carousel-button": {
-              "width": "50px",
-              "height": "50px",
-              "border-radius": "50%"
-            },
-            "amp-img, img": {
-              "width": "100%",
-              "height": "100%",
-              "object-fit": "cover",
-              "position": "relative"
-            },
-            ".carousel-img": {
-              "width": "100%",
-              "height": "300px",
-              "position": "relative"
-            },
-            "@media (min-width: 768px)": {
-              ".carousel-img": {
-                "max-width": "450px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".carousel-img": {
-                "margin": "0"
-              },
-              ".amp-carousel-button": {
-                "display": "none"
-              }
-            },
-            "amp-img:after": {
-              "position": "absolute",
-              "content": "\"\"",
-              "width": "100%",
-              "height": "100%",
-              "left": "0",
-              "top": "0",
-              "background-color": "@imgOverlayColor",
-              "opacity": "0",
-              "pointer-events": "none",
-              "transition": "opacity .3s"
-            },
-            ".icon-wrap": {
-              "width": "~\"@{iconsSize}rem\"",
-              "height": "~\"@{iconsSize}rem\"",
-              "position": "absolute",
-              "left": "50%",
-              "top": "50%",
-              "opacity": "0",
-              "transform": "translate(-50%, -50%)",
-              "pointer-events": "none",
-              "transition": "opacity .3s",
-              ".amp-iconfont": {
-                "font-size": "~\"@{iconsSize}rem\"",
-                "width": "~\"@{iconsSize}rem\"",
-                "color": "contrast(@imgOverlayColor, darken(@imgOverlayColor, 50%), #ffffff, 60%)"
-              }
-            },
-            ".carousel-img:hover": {
-              "amp-img": {
-                "cursor": "pointer",
-                "&:after": {
-                  "opacity": "@imgOverlayOpacity"
-                }
-              },
-              ".icon-wrap": {
-                "opacity": "1"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#212121"
-            },
-            "P": {
-              "text-align": "center"
+            ".mbr-section-subtitle DIV": {
+              "text-align": "left"
             }
           },
-          "_name": "slider2",
-          "_customHTML": "<section class=\"slider2 slider\" group=\"Carousels &amp; Sliders\" plugins=\"amp-main,amp-carousel,amp-image-lightbox\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"show Buttons\" name=\"showButtons\" checked=\"\">\n        \n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"3\" step=\"0.1\" value=\"2\">\n        \n        <select title=\"Images\" name=\"imagesAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <input type=\"color\" title=\"Image Overlay Color\" name=\"imgOverlayColor\" value=\"#4ea2e3\">\n        <input type=\"range\" inline=\"\" title=\"Image Overlay Opacity\" name=\"imgOverlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1173.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-fonts-style mbr-section-title mbr-light align-center mbr-white\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">Jańartylǵan baǵdarlama</h3>\n        <h4 class=\"mbr-fonts-style mbr-section-subtitle mbr-light align-center mbr-white\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore incidunt molestias, vitae recusandae error ipsam distinctio, ipsum.</h4>\n        <div class=\"slider-box\"><amp-carousel class=\"carousel\" height=\"300\" layout=\"fixed-height\" type=\"carousel\"><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@THEME_PATH@/components/_images/img/05.jpg\" alt=\"Mobirise\" width=\"450\" layout=\"responsive\" height=\"300\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/img/05.jpg\" alt=\"Mobirise\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@THEME_PATH@/components/_images/img/01.jpg\" alt=\"Mobirise\" width=\"450\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/img/01.jpg\" alt=\"Mobirise\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@THEME_PATH@/components/_images/img/02.jpg\" alt=\"Mobirise\" width=\"450\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/img/02.jpg\" alt=\"Mobirise\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div><div class=\"carousel-img mbr-col-sm-12\">\n                    <amp-img class=\"mobirise-loader\" src=\"@THEME_PATH@/components/_images/img/03.jpg\" alt=\"Mobirise\" width=\"450\" height=\"300\" layout=\"responsive\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/img/03.jpg\" alt=\"Mobirise\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                </div></amp-carousel>\n            \n        </div>\n        <p class=\"mbr-text align-center mbr-fonts-style mbr-white\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">1. Bilim berý men bilim alýdaǵy jańa tásilder.\\<br>2. Synı turǵydan oılaýǵa úıretý.<br>3. Bilim berý úshin baǵalaý jáne oqýdy baǵalaý.<br>4. Bilim berýde aqparattyq - komýnıkasıalyq tehnologıalardy paıdalaný.<br>5. Talantty jáne daryndy balalardy oqytý.<br>6. Oqýshylardyń jas erekshelikterine sáıkes bilim berý jáne oqytý.<br>7. Bilim berýdegi basqarý jáne kóshbasshylyq.</p>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\">Аqparat taratýǵa tirkelý</a></div>\n    </div>\n    <amp-image-lightbox id=\"lightbox1\" layout=\"nodisplay\">\n        <a class=\"control\" data-close-button-aria-label=\"Close\">\n            <span class=\"close\"></span>\n        </a>\n    </amp-image-lightbox>\n</section>",
-          "_cid": "rHuhHOW3cb",
-          "_anchor": "slider2-19",
+          "_name": "content18",
+          "_customHTML": "<section class=\"mbr-section content18\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#767676\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\">Jańartylǵan baǵdarlama</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light  mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\"><i>1. Bilim berý men bilim alýdaǵy jańa tásilder.</i><div><i>2. Synı turǵydan oılaýǵa úıretý.\n</i></div><div><i>3. Bilim berý úshin baǵalaý jáne oqýdy baǵalaý.\n</i></div><div><i>4. Bilim berýde aqparattyq - komýnıkasıalyq tehnologıalardy paıdalaný.\n</i></div><div><i>5. Talantty jáne daryndy balalardy oqytý.\n</i></div><div><i>6. Oqýshylardyń jas erekshelikterine sáıkes bilim berý jáne oqytý.\n</i></div><div><i>7. Bilim berýdegi basqarý jáne kóshbasshylyq.</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">Taratylatyn aqparatqa tirkelý</a></div>\n    </div>\n</section>",
+          "_cid": "rHur71e7Y7",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content18-1b"
         },
         {
           "alias": false,
