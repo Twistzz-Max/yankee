@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "yankee",
-    "currentPage": "page5.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -41,7 +41,7 @@
     "versionFirst": "4.11.4",
     "siteFonts": [],
     "snow": "",
-    "uniqCompNum": 58,
+    "uniqCompNum": 61,
     "versionPublish": "4.11.4",
     "screenshot": "screenshot.png"
   },
@@ -1011,7 +1011,7 @@
     "sabaqtar.html": {
       "settings": {
         "title": "Sabaqtar",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -1647,7 +1647,7 @@
     "geografıa.html": {
       "settings": {
         "title": "Geography",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -2147,10 +2147,13 @@
             },
             ".mbr-section-btn": {
               "padding-top": "1.5rem"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left"
             }
           },
           "_name": "content19",
-          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/-1920x1080.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">Khan Tengri Mountain</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"<div class=&quot;sketchfab-embed-wrapper&quot;>     <iframe title=&quot;A 3D model&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://sketchfab.com/models/9a929f60cbd8447aa6c10de2485837a4/embed?autostart=1&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;></iframe>  <p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;>     <a href=&quot;https://sketchfab.com/3d-models/tibetian-mountain-9a929f60cbd8447aa6c10de2485837a4?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Tibetian mountain</a>     by <a href=&quot;https://sketchfab.com/shinsoj?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Shinsoj</a>     on <a href=&quot;https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Sketchfab</a> </p> </div>\" data-app-placeholder=\"Введите Текст\">3D VIEW</a>\n            <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">INFORMATION</a></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/-1920x1080.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">Han Táńiri shyńy</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\"><i><b>Han Táńiri – Tán – Shán silemderiniń eń bıik núktesi. Jergilikti halyq «Qandy taý» atap ketken, qyp-qyzyl mramordan órilgen shyń taýdyń etegine barǵanda birden kózge túsedi. Bir jaǵynan adamnyń sanasyn baýrap, tabıǵattyń ústemdigine tamsandyrsa, ekinshi jaǵynan alqyzyl tas úreı de shaqyrady. Etegindegi ıt tumsyǵy batpaıtyn ný orman, tek taýeshki meken etetin jyltyr jartas, basyna kıgen áppaq táj bir barǵan adamnyń júregin jaýlap alyp, qaıta-qaıta kelýge májbúr etedi.\n</b></i><div><i><b>Gıpsometrıkalyq ólshem boıynsha Han Táńiriniń bıiktigi 20 000 fýt bolyp sanalady. Iaǵnı bertinge deıin teńiz bıiktiginen 6995 metr joǵary dep aıtylyp kelgen. Biraq sońǵy málimtetter boıynsha bul san 7010 metr bolyp ózgerdi. Ǵalymdar muny burynǵy zertteýlerden ketken qatelik dese, bireýler Ortalyq Azıadaǵy 7000 metrdi baǵyndyrǵan shyńdardyń sanyn beske jetkizý úshin bolýy múmkin degen kúdikpen qaraıdy.«Han Táńiriniń teriskeıindegi máńgi erimeıtin qarly alqap 3 500 metrden soń bastalady. Al muzdyqtar odan da tómen jatyr, shamamen 2 800 metrge deıin túsedi» dep jazady saıahatshy, ǵalym Shyńǵys Ýálıhanov. Tán – Shán qytaı tilinen aýdarǵanda «Aspan asty taýlary» degen maǵyna beredi, al kórshi jatqan Pamır – «Aspan shatyry» degen maǵyna deıdi. Han Táńiriniń ejelgi túrkishe ataýy «Táńir taǵy» dep ataldy. Eki ataýdyń qaısy birinshi paıda bolǵany beımálim, biraq Tán-Shannyń kúngeıi men teriskeıin jaılaıtyn eki halyq áli kúnge deıin ózderinshe ataı beredi.Qazaqstannyń bul óńirdegi taýly aımaǵynda 6000 metrden asatyn 12 shyń bar, sonyń ishindegi eń bıigi – Han táńiri, Aspan bıleýshisi, Qudaılar patshasy, Taý Qudaıy. Kóne grek mıfologıasynda aıtylatyn Olımp – «Qudaılar mekeni» degen maǵynany beredi. Han Táńiri de kóne túrkiler nanymyndaǵy Olımp dep aıtsaq qatelespeıtin bolarmyz. Tipti orta ǵasyrlarda býdızmge bet burǵan mońǵoldardyń ózi áli kúnge Táńirini umtpaıdy, Han Táńgirine taý etedi. Biraq Táńir tek túrki-mońǵoldardyń ǵana Qudaıy emes. Ejelgi mádenıetti zertteýshi, aǵylshyn ǵalymy E.B. Taılor «Táńirdiń beınesinde biz adamdardyń aspanǵa tabynýyn emes, Aspan Qudaıyna tabynýyn kóremiz. Osy arqyly olar Qudaı men oǵan tabyný joldaryn tapty. Kóne túrkilerdiń Aspanǵa tabynýy, artynan Aspan Qudaıyn izdep tabý joldaryn qarap otyrsaq olardyń túsinigi men ýgro-fınderdiń «Aspandaǵy baba» túsinigindegi Qudaıymen tikeleı baılanysty kóre alamyz» dep jazady. HİH ǵasyrda ómir súrgen fın ǵalymy Kastrena «Táńir túsinigi tek Aspan Qudaıyna ǵana tán emes, olar barlyq qudaılardan joǵary turatyn beımálim bir kúshti sıpattaıdy. Bul túsinik Eýropaǵa da taralyp, keıinnen ýaqyt óte kele hıstıandyq túsinikpen baılanysyp, sińisip ketken» dep nyq senimmen jazady</b>.</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"<div class=&quot;sketchfab-embed-wrapper&quot;>     <iframe title=&quot;A 3D model&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://sketchfab.com/models/9a929f60cbd8447aa6c10de2485837a4/embed?autostart=1&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;></iframe>  <p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;>     <a href=&quot;https://sketchfab.com/3d-models/tibetian-mountain-9a929f60cbd8447aa6c10de2485837a4?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Tibetian mountain</a>     by <a href=&quot;https://sketchfab.com/shinsoj?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Shinsoj</a>     on <a href=&quot;https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Sketchfab</a> </p> </div>\" data-app-placeholder=\"Введите Текст\">3D kórý</a></div>\n    </div>\n</section>",
           "_cid": "rGYqsNPtNX",
           "_anchor": "content19-13",
           "_protectedParams": [],
@@ -2188,7 +2191,7 @@
     "qosymsha.html": {
       "settings": {
         "title": "About Us",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2751,7 +2754,7 @@
     "page4.html": {
       "settings": {
         "title": "donate",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -3292,7 +3295,7 @@
     "page5.html": {
       "settings": {
         "title": "Tarih",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -3788,14 +3791,15 @@
               "background-image": "url(@bg-value)"
             },
             ".mbr-title": {
-              "padding-bottom": "1rem"
+              "padding-bottom": "1rem",
+              "color": "#000000"
             },
             ".mbr-section-btn": {
               "padding-top": "1.5rem"
             }
           },
           "_name": "content19",
-          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n            Article Title with Background Image\n        </h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"<div class=&quot;sketchfab-embed-wrapper&quot;>     <iframe title=&quot;A 3D model&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://sketchfab.com/models/f2bbfba71fdc4baf94b274c596db17d8/embed?autostart=1&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;></iframe>  <p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;>     <a href=&quot;https://sketchfab.com/3d-models/tank-tt-139-f2bbfba71fdc4baf94b274c596db17d8?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Tank TT-139</a>     by <a href=&quot;https://sketchfab.com/swittzz?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>swittzz</a>     on <a href=&quot;https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Sketchfab</a> </p> </div>\" data-app-placeholder=\"Введите Текст\">LEARN MORE</a>\n            <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">LIVE DEMO</a></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">Tank IS-2</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"<div class=&quot;sketchfab-embed-wrapper&quot;>     <iframe title=&quot;A 3D model&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://sketchfab.com/models/f2bbfba71fdc4baf94b274c596db17d8/embed?autostart=1&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;></iframe>  <p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;>     <a href=&quot;https://sketchfab.com/3d-models/tank-tt-139-f2bbfba71fdc4baf94b274c596db17d8?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Tank TT-139</a>     by <a href=&quot;https://sketchfab.com/swittzz?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>swittzz</a>     on <a href=&quot;https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Sketchfab</a> </p> </div>\" data-app-placeholder=\"Введите Текст\">LEARN MORE</a>\n            <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">LIVE DEMO</a></div>\n    </div>\n</section>",
           "_cid": "rHuJhhUEDJ",
           "_anchor": "content19-1l",
           "_protectedParams": [],
