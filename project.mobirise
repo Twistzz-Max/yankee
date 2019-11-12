@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "yankee",
-    "currentPage": "index.html",
+    "currentPage": "sabaqtar.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -41,7 +41,7 @@
     "versionFirst": "4.11.4",
     "siteFonts": [],
     "snow": "",
-    "uniqCompNum": 61,
+    "uniqCompNum": 63,
     "versionPublish": "4.11.4",
     "screenshot": "screenshot.png"
   },
@@ -558,7 +558,7 @@
             }
           },
           "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/logogo-2-1600x800.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">3D Sabakka ótý</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">\n            Bolashaqqa bir qadam.</h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" href=\"sabaqtar.html\" data-app-placeholder=\"Введите Текст\">&nbsp; &nbsp; &nbsp;ARY ÓTÝ &nbsp; &nbsp; &nbsp;</a></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/logogo-2-1600x800.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-black mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">3D Sabakkka ótý</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-black mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">\n            Bolashaqqa bir qadam.</h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" href=\"sabaqtar.html\" data-app-placeholder=\"Введите Текст\">&nbsp; &nbsp; &nbsp;ARY ÓTÝ &nbsp; &nbsp; &nbsp;</a></div>\n    </div>\n</section>",
           "_cid": "rGUJame0tN",
           "_anchor": "header4-1",
           "_protectedParams": [],
@@ -1500,83 +1500,39 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            "background-color": "@bgColor",
+            "h1": {
+              "margin-bottom": "20px"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            ".wrapper": {
+              "text-align": "center"
             },
-            ".card": {
-              "margin-bottom": "3rem",
-              "position": "relative",
-              "display": "flex",
-              "-ms-flex-direction": "column",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "min-width": "0",
-              "word-wrap": "break-word",
-              "background-clip": "border-box",
-              "border-radius": "0",
-              "width": "100%",
-              "min-height": "1px",
-              "@media (max-width: 767px)": {
-                "margin-bottom": "30px"
-              },
-              ".btn": {
-                "margin": ".4rem 4px !important"
-              },
-              "& when (@cardsAmount < '4')": {
-                "@media (min-width: 768px)": {
-                  "padding-left": "1.5rem",
-                  "padding-right": "1.5rem"
-                }
-              },
-              "& when (@cardsAmount = '4')": {
-                "@media (min-width: 768px) and (max-width: 991px)": {
-                  "padding-left": "1.5rem",
-                  "padding-right": "1.5rem"
+            ".icons-list": {
+              "a": {
+                "display": "inline-block",
+                "padding": "1rem",
+                "margin": ".5rem",
+                "background": "@iconsBg",
+                ".iconfont-wrapper": {
+                  "display": "inline-block",
+                  "width": "~\"@{iconsSize}rem\"",
+                  "height": "~\"@{iconsSize}rem\"",
+                  ".amp-iconfont": {
+                    "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
+                    "font-size": "~\"@{iconsSize}rem\""
+                  }
                 }
               }
-            },
-            ".card-title": {
-              "margin": "0",
-              "& when not (@showText)": {
-                "padding-bottom": "10px"
-              }
-            },
-            ".mbr-text": {
-              "color": "#232323"
-            },
-            ".card-box": {
-              "padding-top": "2rem"
-            },
-            "amp-img": {
-              "width": "100%"
-            },
-            ".mbr-row when (@cardsAmount < '4')": {
-              "@media (min-width: 768px)": {
-                "margin-left": "-1.5rem",
-                "margin-right": "-1.5rem"
-              }
-            },
-            ".mbr-row when (@cardsAmount = '4')": {
-              "@media (min-width: 768px) and (max-width: 991px)": {
-                "margin-left": "-1.5rem",
-                "margin-right": "-1.5rem"
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "left"
             }
           },
-          "_name": "features2",
-          "_customHTML": "<section class=\"features2 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <!-- <input type=\"checkbox\" title=\"Show Lines\" name=\"showLines\" checked> -->\n        <!-- <input type=\"color\" title=\"Lines Color\" name=\"linesColor\" value=\"#efefef\" condition=\"showLines\"> -->\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#d5d5d5\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 1}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"../_images/img/05.jpg\" layout=\"responsive\" width=\"16\" height=\"9\" alt=\"a card img\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"../_images/img/05.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Geografıa</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Dúnıe júzinniń basty nysandary jaıly tolyq aqparat.</p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-secondary\" href=\"geografıa.html\" data-app-placeholder=\"Введите Текст\">Sabaqty bastaý</a></div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"../_images/img/01.jpg\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"a sample image\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Tarıh</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Tarıhı oqıǵalar men nysandardyń onlaın kórmesi.</p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-secondary\" href=\"page5.html\" data-app-placeholder=\"Введите Текст\">Sabaqty bastaý</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"../_images/img/02.jpg\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"a sample image\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Bıologıa</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Jabaıy dúnıeni ishteı kórýge múmkindik.</p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">Sabaqty bastaý</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"../_images/img/03.jpg\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"a sample image\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"../_images/img/03.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style align-left mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Astronomıa</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Barlyq planetalar, juldyzdar, astronomıalyq jańalyqtar týraly jalpy maǵlumat.</p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">Sabaqty bastaý</a></div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
-          "_cid": "rGWRbgr7IO",
-          "_anchor": "features2-h",
+          "_name": "social-follow",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"8\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"5\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#ffd22e\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#cccccc\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Online Sabaq<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Tarih &nbsp; &nbsp; &nbsp; AÁD &nbsp; &nbsp; &nbsp; Geo &nbsp; &nbsp; &nbsp; &nbsp;Bio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont fa-institution fa\"></span>\n                </span>\n            </a>\n            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont fa-crosshairs fa\"></span>\n                </span>\n            </a>\n            <a href=\"https://plus.google.com/u/0/+Mobirise/posts\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont fa-globe fa\"></span>\n                </span>\n            </a>\n            <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont fa-paw fa\"></span></span></a>\n                \n                \n                \n                \n            </div>\n        </div>\n    </section>",
+          "_cid": "rHCiIQ0QZH",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "social-follow-1q"
         },
         {
           "alias": false,
