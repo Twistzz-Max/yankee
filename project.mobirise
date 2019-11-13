@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "yankee",
-    "currentPage": "tarih.html",
+    "currentPage": "tarihvavilon.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -5094,25 +5094,30 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            "p": {
-              "margin": "0",
-              "color": "#ffffff"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-title": {
+              "padding-bottom": "1rem"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left"
             }
           },
-          "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#212121\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Yankee Korporasıasy - Barlyq quqyq saqtalǵan\n            </p>\n        </div>\n    </div>\n</section>",
-          "_cid": "rGUJLMPUka",
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">Babyl - Vavilon</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\"><i><b>Babyl (Arabsha: بابل,) nemese Vavılon, Vavılonıa – &nbsp;ejelgi memleket. Damý tarıhy tórt kezeńge bólinedi: 1) erte Vavılon patshalyǵy (bizdiń zamanymyzdan burynǵy 1894 – 1518); 2) kasıtter dáýiri (bizdiń zamanymyzdan burynǵy 1518 – 1204); 3) saıası quldyraý dáýiri (bizdiń zamanymyzdan burynǵy 1204 – 626); 4) jańa Vavılon patshalyǵy (bizdiń zamanymyzdan burynǵy 626 – 538). Mesopotamıanyń ońtústik bóliginde (qazirgi Irak jeri) bizdiń zamanymyzdan burynǵy 2-myńjyldyqtyń basynda paıda bolǵan bul memleket óziniń basty qalasynyń ataýymen ataldy. Ol alǵashynda (bizdiń zamanymyzdan burynǵy 24 – 22 ǵasyrlar) Akkad memleketi patshalarynyń, keıinnen Ýr áýletinen shyqqan (bizdiń zamanymyzdan burynǵy 22 – 21 ǵasyrlar) patshalardyń qol astyna qarady. Bizdiń zamanymyzdan burynǵy 1894 jyly amorıt taıpasynan shyqqan Sýmýabým áýleti Vavılon patshalyǵynyń negizin qalady. Hammýrapı patsha (bizdiń zamanymyzdan burynǵy 1792 – 50) tusynda Vavılon nyǵaıyp, iri memleketke aınaldy. Bizdiń zamanymyzdan burynǵy 16 ǵasyrda eldi kasıtter jaýlap aldy. Kasıtter dáýirinde syrtqy saıasat aıtarlyqtaı tabysty bolmady. Degenmen, eldiń sharýashylyǵy qaıtadan órkendep, jylqy ósirý jaqsy damydy. Kasıtter áýleti qulaǵannan keıin Navýhodonosor İ (bizdiń zamanymyzdan burynǵy 1146 – 25) patsha men onyń muragerleri tusynda Vavılon qaıtadan kúsheıip, Asırıa men Elamdy ózine baǵyndyrdy. Biraq keıinnen patshanyń bıligi álsirep, bólinip shyqqan Asırıa men Elamnyń jasaǵan shabýyldary sharýashylyqty múldem quldyratyp jiberdi. Asırıa áskerleri qalany eki ret qıratty, biraq eki retinde de Vavılon qalpyna keltirildi. Bizdiń zamanymyzdan burynǵy 626 jyly haldeı taıpasynan shyqqan Nabopalasar Asırıadan bólinip, ózin Vavılonnyń patshasymyn dep jarıalady. Ol mıdıalyqtarmen odaqtasyp, Asırıa patshalyǵyn talqandady da, terıtorıasyn bólip aldy. Sóıtip, Jańa Vavılon kezeńi bastaldy. Navýhodonosor İİ (bizdiń zamanymyzdan burynǵy 604 – 562) patsha tusynda kóptegen aımaqtar jaýlap alyndy. Osy kezde Vavılonnyń ekonomıkasy da kúsheıip, Aldyńǵy Azıadaǵy negizgi saýda ortalyǵyna aınaldy. Hammýrapı b.z.b. 1792-1750 jyldar aralyǵynda patshalyq etti.Navýhodonosor İİ ólgennen keıin saraı tóńkeristeri bolyp, mıdıalyqtarmen úzdiksiz soǵys júrgizildi. Bizdiń zamanymyzdan burynǵy 538 jyly parsylardyń patshasy Kır İİ Vavılondy basyp aldy. Osydan keıin Vavılon patshalyǵy óziniń ómir súrýin múldem toqtatty.</b></i></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"<div class=&quot;sketchfab-embed-wrapper&quot;>     <iframe title=&quot;A 3D model&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://sketchfab.com/models/a5b6f1791a464beda37f9c30f06d8755/embed?autostart=1&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;></iframe>  <p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;>     <a href=&quot;https://sketchfab.com/3d-models/munara-a5b6f1791a464beda37f9c30f06d8755?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Munara</a>     by <a href=&quot;https://sketchfab.com/swittzz?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>swittzz</a>     on <a href=&quot;https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Sketchfab</a> </p> </div>\" data-app-placeholder=\"Введите Текст\">3D kórý</a></div>\n    </div>\n</section>",
+          "_cid": "rHGckJDcoV",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
+          "_global": false,
+          "_once": false,
           "_params": {},
-          "_anchor": "footer1-2a"
+          "_anchor": "content19-2c"
         },
         {
           "alias": false,
@@ -5600,30 +5605,25 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-title": {
-              "padding-bottom": "1rem"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".mbr-section-btn": {
-              "padding-top": "1.5rem"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left"
+            "p": {
+              "margin": "0",
+              "color": "#ffffff"
             }
           },
-          "_name": "content19",
-          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">Babyl - Vavilon</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\"><i><b>Babyl (Arabsha: بابل,) nemese Vavılon, Vavılonıa – &nbsp;ejelgi memleket. Damý tarıhy tórt kezeńge bólinedi: 1) erte Vavılon patshalyǵy (bizdiń zamanymyzdan burynǵy 1894 – 1518); 2) kasıtter dáýiri (bizdiń zamanymyzdan burynǵy 1518 – 1204); 3) saıası quldyraý dáýiri (bizdiń zamanymyzdan burynǵy 1204 – 626); 4) jańa Vavılon patshalyǵy (bizdiń zamanymyzdan burynǵy 626 – 538). Mesopotamıanyń ońtústik bóliginde (qazirgi Irak jeri) bizdiń zamanymyzdan burynǵy 2-myńjyldyqtyń basynda paıda bolǵan bul memleket óziniń basty qalasynyń ataýymen ataldy. Ol alǵashynda (bizdiń zamanymyzdan burynǵy 24 – 22 ǵasyrlar) Akkad memleketi patshalarynyń, keıinnen Ýr áýletinen shyqqan (bizdiń zamanymyzdan burynǵy 22 – 21 ǵasyrlar) patshalardyń qol astyna qarady. Bizdiń zamanymyzdan burynǵy 1894 jyly amorıt taıpasynan shyqqan Sýmýabým áýleti Vavılon patshalyǵynyń negizin qalady. Hammýrapı patsha (bizdiń zamanymyzdan burynǵy 1792 – 50) tusynda Vavılon nyǵaıyp, iri memleketke aınaldy. Bizdiń zamanymyzdan burynǵy 16 ǵasyrda eldi kasıtter jaýlap aldy. Kasıtter dáýirinde syrtqy saıasat aıtarlyqtaı tabysty bolmady. Degenmen, eldiń sharýashylyǵy qaıtadan órkendep, jylqy ósirý jaqsy damydy. Kasıtter áýleti qulaǵannan keıin Navýhodonosor İ (bizdiń zamanymyzdan burynǵy 1146 – 25) patsha men onyń muragerleri tusynda Vavılon qaıtadan kúsheıip, Asırıa men Elamdy ózine baǵyndyrdy. Biraq keıinnen patshanyń bıligi álsirep, bólinip shyqqan Asırıa men Elamnyń jasaǵan shabýyldary sharýashylyqty múldem quldyratyp jiberdi. Asırıa áskerleri qalany eki ret qıratty, biraq eki retinde de Vavılon qalpyna keltirildi. Bizdiń zamanymyzdan burynǵy 626 jyly haldeı taıpasynan shyqqan Nabopalasar Asırıadan bólinip, ózin Vavılonnyń patshasymyn dep jarıalady. Ol mıdıalyqtarmen odaqtasyp, Asırıa patshalyǵyn talqandady da, terıtorıasyn bólip aldy. Sóıtip, Jańa Vavılon kezeńi bastaldy. Navýhodonosor İİ (bizdiń zamanymyzdan burynǵy 604 – 562) patsha tusynda kóptegen aımaqtar jaýlap alyndy. Osy kezde Vavılonnyń ekonomıkasy da kúsheıip, Aldyńǵy Azıadaǵy negizgi saýda ortalyǵyna aınaldy. Hammýrapı b.z.b. 1792-1750 jyldar aralyǵynda patshalyq etti.Navýhodonosor İİ ólgennen keıin saraı tóńkeristeri bolyp, mıdıalyqtarmen úzdiksiz soǵys júrgizildi. Bizdiń zamanymyzdan burynǵy 538 jyly parsylardyń patshasy Kır İİ Vavılondy basyp aldy. Osydan keıin Vavılon patshalyǵy óziniń ómir súrýin múldem toqtatty.</b></i></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"<div class=&quot;sketchfab-embed-wrapper&quot;>     <iframe title=&quot;A 3D model&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://sketchfab.com/models/a5b6f1791a464beda37f9c30f06d8755/embed?autostart=1&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; vr&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;></iframe>  <p style=&quot;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;&quot;>     <a href=&quot;https://sketchfab.com/3d-models/munara-a5b6f1791a464beda37f9c30f06d8755?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Munara</a>     by <a href=&quot;https://sketchfab.com/swittzz?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>swittzz</a>     on <a href=&quot;https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup&quot; target=&quot;_blank&quot; style=&quot;font-weight: bold; color: #1CAAD9;&quot;>Sketchfab</a> </p> </div>\" data-app-placeholder=\"Введите Текст\">3D kórý</a></div>\n    </div>\n</section>",
-          "_cid": "rHGckJDcoV",
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#212121\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Yankee Korporasıasy - Barlyq quqyq saqtalǵan\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "rGUJLMPUka",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
+          "_global": true,
+          "_once": "footer",
           "_params": {},
-          "_anchor": "content19-2c"
+          "_anchor": "footer1-2a"
         }
       ]
     }
