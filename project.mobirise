@@ -46,10 +46,10 @@
     "screenshot": "screenshot.png",
     "cookiesAlert": {
       "customDialogSelector": true,
-      "colorText": "#ffd22e",
+      "colorText": "#ffffff",
       "colorBg": "#232323",
       "colorButton": "",
-      "colorLink": "#70e6b3",
+      "colorLink": "#ffd22e",
       "underlineLink": true,
       "opacity": "99",
       "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
@@ -57,7 +57,7 @@
     },
     "gdpr": {
       "colorText": "#232323",
-      "colorLink": "#0dcd7b",
+      "colorLink": "#ffd22e",
       "underlineLink": false,
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
